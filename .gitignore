@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Sensitive Credentials
+.env
+.env.local
+.env.*.local
+
+# Incident captures (keep directory structure via .gitkeep)
+captures/*
+!captures/.gitkeep
+
+# CSV incident logs
+incidents.csv
+
+# Large neural network weights (downloaded via download_weights.py or Ultralytics hub)
+*.pt
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
